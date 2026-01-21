@@ -1,53 +1,51 @@
-import { Stethoscope, Activity, Baby, Microscope, HeartPulse, Hospital, Wind, ScanLine, Syringe, ClipboardCheck } from "lucide-react";
-
 const services = [
   {
-    icon: Stethoscope,
+    image: "/images/general-medicine.png",
     title: "General Medicine",
     description: "Primary care consultations for adults with a focus on accurate diagnosis and treatment."
   },
   {
-    icon: Activity,
+    image: "/images/internal-medicine.png",
     title: "Internal Medicine",
     description: "Comprehensive care for chronic diseases and complex adult medical conditions."
   },
   {
-    icon: Wind,
+    image: "/images/pulmonology.png",
     title: "Pulmonology",
     description: "Specialized care for respiratory illnesses such as asthma, COPD, and lung infections."
   },
   {
-    icon: Baby,
+    image: "/images/pediatrics.png",
     title: "Pediatrics",
     description: "Full medical care for infants, children, and adolescents."
   },
   {
-    icon: Syringe,
+    image: "/images/minor-surgery.png",
     title: "Minor Surgery",
     description: "Safe and efficient minor surgical procedures performed by trained professionals."
   },
   {
-    icon: Microscope,
+    image: "/images/laboratory.png",
     title: "Laboratory",
     description: "Accurate laboratory testing with fast turnaround time for diagnosis support."
   },
   {
-    icon: ScanLine,
+    image: "/images/spirometry.png",
     title: "Spirometry",
     description: "Lung function testing to evaluate breathing capacity and detect respiratory diseases."
   },
   {
-    icon: HeartPulse,
+    image: "/images/ecg.png",
     title: "Electrocardiogram (ECG)",
     description: "Cardiac testing to monitor heart rhythm and identify abnormalities."
   },
   {
-    icon: Hospital,
+    image: "/images/hospitalisation.png",
     title: "Hospitalisation",
     description: "Comfortable inpatient care with close medical monitoring and support."
   },
   {
-    icon: ClipboardCheck,
+    image: "/images/chester-test.png",
     title: "Chester Step Test",
     description: "Fitness assessment including certification for work or sports."
   }
@@ -70,35 +68,33 @@ export function ServicesSection() {
 
         {/* Services Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {services.map((service, index) => {
-            const IconComponent = service.icon;
-
-            return (
-              <div
-                key={index}
-                className="text-center group hover:bg-emerald-50 p-6 rounded-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-lg"
-              >
-                {/* Icon */}
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full mb-6 group-hover:bg-emerald-600 group-hover:text-white transition-colors duration-300">
-                  <IconComponent className="w-8 h-8" />
-                </div>
-
-                {/* Title */}
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                  {service.title}
-                </h3>
-
-                {/* Description */}
-                <p className="text-gray-600 leading-relaxed">
-                  {service.description}
-                </p>
+          {services.map((service, index) => (
+            <div
+              key={index}
+              className="text-center group hover:bg-emerald-50 p-6 rounded-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-lg"
+            >
+              {/* Image */}
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-emerald-100 rounded-full mb-6 group-hover:bg-emerald-600 transition-colors duration-300">
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  className="w-8 h-8 object-contain"
+                />
               </div>
-            );
-          })}
+
+              {/* Title */}
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                {service.title}
+              </h3>
+
+              {/* Description */}
+              <p className="text-gray-600 leading-relaxed">
+                {service.description}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
-
-      
     </section>
   );
 }

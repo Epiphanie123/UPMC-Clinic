@@ -4,7 +4,7 @@ import { Footer } from "./components/Footer";
 import { HomePage } from "./pages/HomePage";
 import ServicesPage from "./pages/ServicesPage";
 import {DoctorsPage} from "./pages/DoctorsPage";
-import AboutPage from "./pages/AboutPage";
+// import AboutPage from "./pages/AboutPage";
 import { ContactPage } from "./pages/ContactPage";
 import { DepartmentsSection } from "./components/DepartmentsSection";
 
@@ -39,7 +39,7 @@ export default function App() {
           </div>
         );
       case "about":
-        return <AboutPage />;
+        // return <AboutPage />;
       case "doctors":
         return <DoctorsPage />;
       case "contact":
