@@ -22,7 +22,7 @@ Thumbs.db
 .env.local
 .package-lock.json
 .yarn/cache/
-
+.node_modules
 
 
 
