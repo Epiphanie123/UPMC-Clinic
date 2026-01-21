@@ -23,7 +23,9 @@ export function HeroSection() {
             {/* Subheadline */}
             <p className="text-lg sm:text-xl lg:text-2xl text-gray-600 leading-relaxed max-w-2xl">
               Where compassionate care meets modern medicine.
-At Umurinzi Petros Medical Center, we walk with you every step of the way offering expert treatment, trusted support, and advanced services such as spirometry to ensure your well-being.Where modern medicine meets heartfelt care. Working hand in hand with the finest care team every step of the way.
+ At Umurinzi Petros Medical Center, we walk with you every step of the way offering expert treatment, 
+ trusted support, and advanced services such as spirometry to ensure your well-being.Where modern medicine meets heartfelt care.
+  Working hand in hand with the finest care team every step of the way.
             </p>
             
             {/* CTA Buttons */}
