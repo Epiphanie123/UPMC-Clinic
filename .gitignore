@@ -20,3 +20,9 @@ Thumbs.db
 # Optional env files
 .env
 .env.local
+.package-lock.json
+.yarn/cache/
+
+
+
+
