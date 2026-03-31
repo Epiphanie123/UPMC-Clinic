@@ -13,41 +13,42 @@ import {
 } from "lucide-react";
 
 const doctors = [
-  {
-    name: "Dr. Sarah Johnson",
-    specialty: "Cardiothoracic Surgery",
-    title: "Chief of Cardiac Surgery",
+   {
+    name: "Dr. SIBOMANA JEAN PIERRE",
+    specialty: "PULMONOLOGY",
+    title: "Chief of Pulmonary Medicine",
     image: "https://images.unsplash.com/photo-1734002886107-168181bcd6a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmZW1hbGUlMjBkb2N0b3IlMjBzbWlsaW5nJTIwbWVkaWNhbCUyMHByb2Zlc3Npb25hbHxlbnwxfHx8fDE3NTkxMjMzNjN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    experience: "15+ Years",
-    education: "Harvard Medical School",
-    certifications: ["Board Certified Cardiac Surgeon", "Fellow of American College of Surgeons"],
-    specializations: ["Heart Transplant", "Minimally Invasive Cardiac Surgery", "Valve Repair"],
+    experience: "20+ Years",
+    education: "American Thoracic Society: New York, USA",
+    certifications: ["Pulmonary and Critical Care FELLOWSHIP (Medicine", "Imperial ARUA Research Seed Fund (London, RW)"],
+    specializations: ["BMJ Open Respiratory Research", "Senior consultant internist, Pulmonary and Critical care physician (Medicine)", " Chief Fellow (Pulmonary and Critical Care)"],
     rating: 4.9,
-    reviews: 234,
-    availability: "Mon, Wed, Fri"
+    reviews: 312,
+    availability: "Mon, Tue, Thu, Fri"
   },
+
   {
-    name: "Dr. Michael Chen",
-    specialty: "Neurosurgery",
-    title: "Director of Neurosurgical Services",
+    name: "Dr. UWAMALIYA MODETSE",
+    specialty: "pediatrics",
+    title: "Emergency Department Director",
     image: "https://images.unsplash.com/photo-1758691461516-7e716e0ca135?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkb2N0b3IlMjBwb3J0cmFpdCUyMHByb2Zlc3Npb25hbCUyMG1lZGljYWx8ZW58MXx8fHwxNzU5MTI2NTUyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    experience: "18+ Years",
-    education: "Johns Hopkins University",
-    certifications: ["Board Certified Neurosurgeon", "American Board of Neurological Surgery"],
-    specializations: ["Brain Tumor Surgery", "Spinal Surgery", "Stroke Intervention"],
-    rating: 4.8,
-    reviews: 189,
-    availability: "Tue, Thu, Sat"
+    experience: "10+ Years",
+    education: "University of Rwanda School of Medicine",
+    certifications: ["Board Certified Pediatrician", "pediatric Emergency Medicine Specialist"],
+    specializations: ["Pediatric Emergency Care", "Child Health Advocacy", "Community Pediatrics"],
+    rating: 4.9,
+    reviews: 145,
+    availability: "24/7 Emergency Coverage"
   },
   {
-    name: "Dr. Emily Rodriguez",
-    specialty: "Pediatrics",
-    title: "Chief of Pediatric Medicine",
+    name: "Dr. SIBOMANA JEAN PIERRE",
+    specialty: "PULMONOLOGY",
+    title: "Chief of Pulmonary Medicine",
     image: "https://images.unsplash.com/photo-1734002886107-168181bcd6a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmZW1hbGUlMjBkb2N0b3IlMjBzbWlsaW5nJTIwbWVkaWNhbCUyMHByb2Zlc3Npb25hbHxlbnwxfHx8fDE3NTkxMjMzNjN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    experience: "12+ Years",
-    education: "Stanford University School of Medicine",
-    certifications: ["Board Certified Pediatrician", "Fellow of American Academy of Pediatrics"],
-    specializations: ["Newborn Care", "Child Development", "Pediatric Emergency Medicine"],
+    experience: "20+ Years",
+    education: "American Thoracic Society: New York, USA",
+    certifications: ["Pulmonary and Critical Care FELLOWSHIP (Medicine", "Imperial ARUA Research Seed Fund (London, RW)"],
+    specializations: ["BMJ Open Respiratory Research", "Senior consultant internist, Pulmonary and Critical care physician (Medicine)", " Chief Fellow (Pulmonary and Critical Care)"],
     rating: 4.9,
     reviews: 312,
     availability: "Mon, Tue, Thu, Fri"
@@ -66,7 +67,7 @@ const doctors = [
     availability: "Mon, Wed, Fri, Sat"
   },
   {
-    name: "Dr. Lisa Thompson",
+    name: "Dr. ",
     specialty: "Obstetrics & Gynecology",
     title: "Women's Health Specialist",
     image: "https://images.unsplash.com/photo-1734002886107-168181bcd6a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmZW1hbGUlMjBkb2N0b3IlMjBzbWlsaW5nJTIwbWVkaWNhbCUyMHByb2Zlc3Npb25hbHxlbnwxfHx8fDE3NTkxMjMzNjN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
@@ -78,19 +79,7 @@ const doctors = [
     reviews: 278,
     availability: "Tue, Wed, Thu, Fri"
   },
-  {
-    name: "Dr. Robert Kim",
-    specialty: "Emergency Medicine",
-    title: "Emergency Department Director",
-    image: "https://images.unsplash.com/photo-1758691461516-7e716e0ca135?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkb2N0b3IlMjBwb3J0cmFpdCUyMHByb2Zlc3Npb25hbCUyMG1lZGljYWx8ZW58MXx8fHwxNzU5MTI2NTUyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    experience: "16+ Years",
-    education: "University of Pennsylvania",
-    certifications: ["Board Certified Emergency Medicine", "Advanced Trauma Life Support"],
-    specializations: ["Trauma Care", "Critical Care Medicine", "Emergency Surgery"],
-    rating: 4.9,
-    reviews: 145,
-    availability: "24/7 Emergency Coverage"
-  }
+  
 ];
 
 const departments = [
@@ -220,7 +209,7 @@ export function DoctorsPage() {
             </Button>
             <Button size="lg" variant="outline" className="border-emerald-600 text-emerald-600">
               <Phone className="w-5 h-5 mr-2" />
-              Call (555) 123-4567
+              Call (+250 795 161 628)
             </Button>
           </div>
         </div>

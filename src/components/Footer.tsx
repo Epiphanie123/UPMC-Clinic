@@ -29,16 +29,16 @@ export function Footer({ onNavigate }: FooterProps) {
               Your health and wellbeing are our top priorities.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors">
+              <a href="https://web.facebook.com/profile.php?id=61576362847751&_rdc=1&_rdr#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-emerald-400 transition-colors">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors">
+              <a href="https://twitter.com/UmurinziPetros" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-emerald-400 transition-colors">
                 <Twitter className="w-5 h-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors">
+              <a href="https://www.instagram.com/umurinzipetrosmedicalcenter" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-emerald-400 transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors">
+              <a href="https://www.linkedin.com/company/umurinzi-petros-medical-center" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-emerald-400 transition-colors">
                 <Linkedin className="w-5 h-5" />
               </a>
             </div>
@@ -104,7 +104,7 @@ export function Footer({ onNavigate }: FooterProps) {
         <div className="py-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              ©umurinzi petros medical center. All rights reserved.
+              Â©umurinzi petros medical center. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors">
